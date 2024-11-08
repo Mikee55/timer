@@ -68,7 +68,7 @@ text {
     font-size: 70;
     font-family: 'Courier New', Courier, monospace;
 }
-.circle-button-one {
+#circle-button-one {
     width: 50px;
     height: 7ch;
     border-radius: 50%;
