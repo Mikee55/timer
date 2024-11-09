@@ -3,57 +3,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>timer</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" >
-    <script src="timer.js"></script>
-    
     
 </head>
 <body>
-    <div id="main-container">
+    <div>
         <nav id="nav-container">
             <ul class="nav-list">
                 <li><a href="#">About</a></li>
                 <li><a href="#">contact</a></li>
             </ul>
         </nav>
-        <div id="container">
-            <div id="app-info">
-                <h2>TIMER</h2>
-                <P>. . .Your Time, Your Game. . .</P>
-            </div>
-            <div id="timer-container">
-                <div id="timer-one">
-                    <div  id="circle-container">
-                        <svg id="svg-one" viewBox="0 0 300 300">
-                            <circle cx="150" cy="150" r="140" class="circle"/>
-                            <text x="150" y="150" text-anchor="middle" dominant-baseline="middle" id="top-timer">00:00</text>
-                        </svg>
-                    </div>
-                    <button id="circle-button-one"></button>
-                </div>
-                <div id="middle-container">
-                    <div class="line"></div>
-                    <button id="clear-button">clear</button> 
-                </div>
-                <div id="timer-two">
-                    <div id="circle-container">
-                        <svg id="svg-two" viewBox="0 0 300 300">
-                            <circle cx="150" cy="150" r="140" class="circle"/>
-                            <text x="150" y="150" text-anchor="middle" dominant-baseline="middle" id="bottom-timer">00:00</text>
-                        </svg>
-                    </div>
-                    <button id="circle-button-two"></button> 
-                </div>
-            </div> 
-            <div id="contact">
-                <img src="facebook (2).png" class="socials"  alt="" width="40" height="40">
-                <img src="instagram.png" class="socials"  alt="" width="40" height="40">
-                <img src="linkedin.png" class="socials"  alt="" width="40" height="40">
-                <img src="twitter.png" class="socials"  alt="" width="40" height="40">
-                <img src="whatsapp.png" class="socials"  alt="" width="40" height="40">
-            </div>       
-        </div> 
     </div>
+    <div id="container">
+        <div id="app-info">
+            <h2>TIMER</h2>
+            <P>Description</P>
+        </div>
+        <div id="timer-container">
+            <div id="timer-one">
+                <div  id="circle-container">
+                    <svg width="450" height="345" class="svg-one">
+                        <circle cx="170" cy="170" r="150" class="circle"/>
+                        <text x="170" y="170" text-anchor="middle" dominant-baseline="middle">00:00</text>
+                    </svg>
+                </div>
+                <button class="circle-button-one"></button>
+            </div>
+            <div id="timer-two">
+                <div id="circle-container">
+                    <svg width="450" height="345" class="svg-two">
+                        <circle cx="170" cy="170" r="150" class="circle"/>
+                        <text x="170" y="170" text-anchor="middle" dominant-baseline="middle">00:00</text>
+                    </svg>
+                </div>
+                <button class="circle-button-two"></button> 
+            </div>
+        </div> 
+        <div id="contact">
+            <img src="facebook (2).png" class="socials"  alt="" width="40" height="40">
+        </div>       
+    </div>  
 </body>
 </html>
