@@ -76,7 +76,7 @@ text {
     margin: 2px;
     padding: 3px;
 }
-.circle-button-two {
+#circle-button-two {
     width: 50px;
     height: 7ch;
     border-radius: 50%;
